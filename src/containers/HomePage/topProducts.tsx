@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import Slider from "react-slick";
 import styled from "styled-components";
 import tw from "twin.macro";
@@ -15,19 +14,19 @@ const CarouselWrapper = styled.div`
     w-full
     h-auto
   `};
-  @media(min-width: ${SCREENS.sm}){
+  @media(max-width: ${SCREENS.sm}){
     margin-top: 25em;
   }
 
-  @media(min-width: ${SCREENS.md}){
+  @media(max-width: ${SCREENS.md}){
     margin-top: 15em;
   }
 
-  @media(min-width: ${SCREENS.lg}){
+  @media(max-width: ${SCREENS.lg}){
     margin-top: 0em;
   }
 
-  @media(min-width: ${SCREENS.xl}){
+  @media(max-width: ${SCREENS.xl}){
     margin-top: 0em;
   }
 `;
@@ -51,10 +50,6 @@ const MyComponent = styled.div`
     text-black
     relative
   `};
-`;
-
-const ArrowWrapper = styled.div`
-  
 `;
 
 const NextArrow = styled.div`
@@ -128,7 +123,6 @@ position: absolute;
 `;
 
 const Wrapper = styled.div`
-
   ${tw`
       flex
       items-center
@@ -142,19 +136,14 @@ const Wrapper = styled.div`
 `;
 
 function SampleNextArrow(props: any) {
-  const { className, onClick } = props;
-
+  const { className } = props;
   return (
-
-    <NextArrow className={className} onMouseEnter={e => {
-
-    }} />
-
+    <NextArrow className={className} />
   );
 }
 
 function SamplePrevArrow(props: any) {
-  const { className, onClick } = props;
+  const { className } = props;
   return (
     <PrevArrow className={className} />
   );
@@ -203,32 +192,32 @@ export default function TopProducts() {
         <Slider {...settings}>
           <MyComponent>
             <Wrapper>
-              <Product name="Beacon" thumbnailSrc="https://www.aesop.com/u1nb1km7t5q7/4IdmMVMdZok6iuxnyVH8fS/e270af13627b427d3443c2f696585924/Aesop_Kits_Beacon_Web_Large_1584x962px.png" description="Formulation of express gratitude"/>
+              <Product name="Beacon" thumbnailSrc="https://www.aesop.com/u1nb1km7t5q7/4IdmMVMdZok6iuxnyVH8fS/e270af13627b427d3443c2f696585924/Aesop_Kits_Beacon_Web_Large_1584x962px.png" description="Formulation of express gratitude" />
             </Wrapper>
           </MyComponent>
           <MyComponent>
             <Wrapper>
-            <Product name="Beacon" thumbnailSrc="https://www.aesop.com/u1nb1km7t5q7/4IdmMVMdZok6iuxnyVH8fS/e270af13627b427d3443c2f696585924/Aesop_Kits_Beacon_Web_Large_1584x962px.png" description="Formulation of express gratitude"/>
+              <Product name="Beacon" thumbnailSrc="https://www.aesop.com/u1nb1km7t5q7/4IdmMVMdZok6iuxnyVH8fS/e270af13627b427d3443c2f696585924/Aesop_Kits_Beacon_Web_Large_1584x962px.png" description="Formulation of express gratitude" />
             </Wrapper>
           </MyComponent>
           <MyComponent>
             <Wrapper>
-            <Product name="Beacon" thumbnailSrc="https://www.aesop.com/u1nb1km7t5q7/4IdmMVMdZok6iuxnyVH8fS/e270af13627b427d3443c2f696585924/Aesop_Kits_Beacon_Web_Large_1584x962px.png" description="Formulation of express gratitude"/>
+              <Product name="Beacon" thumbnailSrc="https://www.aesop.com/u1nb1km7t5q7/4IdmMVMdZok6iuxnyVH8fS/e270af13627b427d3443c2f696585924/Aesop_Kits_Beacon_Web_Large_1584x962px.png" description="Formulation of express gratitude" />
             </Wrapper>
           </MyComponent>
           <MyComponent>
             <Wrapper>
-            <Product name="Beacon" thumbnailSrc="https://www.aesop.com/u1nb1km7t5q7/4IdmMVMdZok6iuxnyVH8fS/e270af13627b427d3443c2f696585924/Aesop_Kits_Beacon_Web_Large_1584x962px.png" description="Formulation of express gratitude"/>
+              <Product name="Beacon" thumbnailSrc="https://www.aesop.com/u1nb1km7t5q7/4IdmMVMdZok6iuxnyVH8fS/e270af13627b427d3443c2f696585924/Aesop_Kits_Beacon_Web_Large_1584x962px.png" description="Formulation of express gratitude" />
             </Wrapper>
           </MyComponent>
           <MyComponent>
             <Wrapper>
-            <Product name="Beacon" thumbnailSrc="https://www.aesop.com/u1nb1km7t5q7/4IdmMVMdZok6iuxnyVH8fS/e270af13627b427d3443c2f696585924/Aesop_Kits_Beacon_Web_Large_1584x962px.png" description="Formulation of express gratitude"/>
+              <Product name="Beacon" thumbnailSrc="https://www.aesop.com/u1nb1km7t5q7/4IdmMVMdZok6iuxnyVH8fS/e270af13627b427d3443c2f696585924/Aesop_Kits_Beacon_Web_Large_1584x962px.png" description="Formulation of express gratitude" />
             </Wrapper>
           </MyComponent>
           <MyComponent>
             <Wrapper>
-            <Product name="Beacon" thumbnailSrc="https://www.aesop.com/u1nb1km7t5q7/4IdmMVMdZok6iuxnyVH8fS/e270af13627b427d3443c2f696585924/Aesop_Kits_Beacon_Web_Large_1584x962px.png" description="Formulation of express gratitude"/>
+              <Product name="Beacon" thumbnailSrc="https://www.aesop.com/u1nb1km7t5q7/4IdmMVMdZok6iuxnyVH8fS/e270af13627b427d3443c2f696585924/Aesop_Kits_Beacon_Web_Large_1584x962px.png" description="Formulation of express gratitude" />
             </Wrapper>
           </MyComponent>
         </Slider>

@@ -3,7 +3,7 @@ import React from "react";
 import { useMediaQuery } from "react-responsive";
 import tw from "twin.macro";
 import { SCREENS } from "../responsive";
-import { slide as Menu } from "react-burger-menu"
+import { slide as Menu } from "react-burger-menu";
 import menuStyle from "./menuStyles";
 import styled, { css } from "styled-components";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -128,7 +128,6 @@ export function NavItems() {
 
     const isMobile = useMediaQuery({ maxWidth: SCREENS.sm })
     const isTablet = useMediaQuery({ maxWidth: SCREENS.lg })
-    const isScreenMd = useMediaQuery({ maxWidth: SCREENS.md })
 
     if (isMobile) {
         return (
@@ -238,7 +237,6 @@ export function NavItems() {
                         </NavItem>
                     </LeftListContainer>
                 </LeftListContainerWrapper>
-
                 <RightListContainerWrapper>
                     <RightListContainer>
                         <NavItem >
@@ -249,7 +247,6 @@ export function NavItems() {
                         </NavItem>
                     </RightListContainer>
                 </RightListContainerWrapper>
-
             </MainListContainer>
         )
     }
