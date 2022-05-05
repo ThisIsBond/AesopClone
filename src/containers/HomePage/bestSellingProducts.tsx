@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import Slider from "react-slick";
 import styled from "styled-components";
 import tw from "twin.macro";
@@ -56,10 +55,6 @@ const MyComponent = styled.div`
     text-black
     relative
   `};
-`;
-
-const ArrowWrapper = styled.div`
-  
 `;
 
 const NextArrow = styled.div`
@@ -134,32 +129,27 @@ position: absolute;
 
 const Wrapper = styled.div`
 
-  ${tw`
-      flex
-      items-center
-      justify-center
-  `};
+${tw`
+    flex
+    items-center
+    justify-center
+`};
   @media (min-width: 640px) { // when resolution is above 640px
     &:hover ${NextArrow} { // if DeleteButtonContainer is not under an hovered ContainerSection
-      display: none;
+    display: none;
     }
-  }
+}
 `;
 
 function SampleNextArrow(props: any) {
-    const { className, onClick } = props;
-
+    const { className } = props;
     return (
-
-        <NextArrow className={className} onMouseEnter={e => {
-
-        }} />
-
+        <NextArrow className={className} />
     );
 }
 
 function SamplePrevArrow(props: any) {
-    const { className, onClick } = props;
+    const { className } = props;
     return (
         <PrevArrow className={className} />
     );
@@ -208,32 +198,32 @@ export default function BestSellingProducts() {
                 <Slider {...settings}>
                     <MyComponent>
                         <Wrapper>
-                        <Product name="Marrakech Intense Eau de Perfume" thumbnailSrc="https://www.aesop.com/u1nb1km7t5q7/4v65SukDfOHDWDd5BfL2G5/bb71a7ecf729a72172eec4eb3b0030f7/Aesop_Marrakech_Intense_Eau_de_Parfum_50mL_Hybris_Large_684x668px.png" description="A row, unorthodox fragrance"/>
+                            <Product name="Marrakech Intense Eau de Perfume" thumbnailSrc="https://www.aesop.com/u1nb1km7t5q7/4v65SukDfOHDWDd5BfL2G5/bb71a7ecf729a72172eec4eb3b0030f7/Aesop_Marrakech_Intense_Eau_de_Parfum_50mL_Hybris_Large_684x668px.png" description="A row, unorthodox fragrance" />
                         </Wrapper>
                     </MyComponent>
                     <MyComponent>
                         <Wrapper>
-                            <Product name="Marrakech Intense Eau de Perfume" thumbnailSrc="https://www.aesop.com/u1nb1km7t5q7/4v65SukDfOHDWDd5BfL2G5/bb71a7ecf729a72172eec4eb3b0030f7/Aesop_Marrakech_Intense_Eau_de_Parfum_50mL_Hybris_Large_684x668px.png" description="A row, unorthodox fragrance"/>
+                            <Product name="Marrakech Intense Eau de Perfume" thumbnailSrc="https://www.aesop.com/u1nb1km7t5q7/4v65SukDfOHDWDd5BfL2G5/bb71a7ecf729a72172eec4eb3b0030f7/Aesop_Marrakech_Intense_Eau_de_Parfum_50mL_Hybris_Large_684x668px.png" description="A row, unorthodox fragrance" />
                         </Wrapper>
                     </MyComponent>
                     <MyComponent>
                         <Wrapper>
-                        <Product name="Marrakech Intense Eau de Perfume" thumbnailSrc="https://www.aesop.com/u1nb1km7t5q7/4v65SukDfOHDWDd5BfL2G5/bb71a7ecf729a72172eec4eb3b0030f7/Aesop_Marrakech_Intense_Eau_de_Parfum_50mL_Hybris_Large_684x668px.png" description="A row, unorthodox fragrance"/>
+                            <Product name="Marrakech Intense Eau de Perfume" thumbnailSrc="https://www.aesop.com/u1nb1km7t5q7/4v65SukDfOHDWDd5BfL2G5/bb71a7ecf729a72172eec4eb3b0030f7/Aesop_Marrakech_Intense_Eau_de_Parfum_50mL_Hybris_Large_684x668px.png" description="A row, unorthodox fragrance" />
                         </Wrapper>
                     </MyComponent>
                     <MyComponent>
                         <Wrapper>
-                        <Product name="Marrakech Intense Eau de Perfume" thumbnailSrc="https://www.aesop.com/u1nb1km7t5q7/4v65SukDfOHDWDd5BfL2G5/bb71a7ecf729a72172eec4eb3b0030f7/Aesop_Marrakech_Intense_Eau_de_Parfum_50mL_Hybris_Large_684x668px.png" description="A row, unorthodox fragrance"/>
+                            <Product name="Marrakech Intense Eau de Perfume" thumbnailSrc="https://www.aesop.com/u1nb1km7t5q7/4v65SukDfOHDWDd5BfL2G5/bb71a7ecf729a72172eec4eb3b0030f7/Aesop_Marrakech_Intense_Eau_de_Parfum_50mL_Hybris_Large_684x668px.png" description="A row, unorthodox fragrance" />
                         </Wrapper>
                     </MyComponent>
                     <MyComponent>
                         <Wrapper>
-                        <Product name="Marrakech Intense Eau de Perfume" thumbnailSrc="https://www.aesop.com/u1nb1km7t5q7/4v65SukDfOHDWDd5BfL2G5/bb71a7ecf729a72172eec4eb3b0030f7/Aesop_Marrakech_Intense_Eau_de_Parfum_50mL_Hybris_Large_684x668px.png" description="A row, unorthodox fragrance"/>
+                            <Product name="Marrakech Intense Eau de Perfume" thumbnailSrc="https://www.aesop.com/u1nb1km7t5q7/4v65SukDfOHDWDd5BfL2G5/bb71a7ecf729a72172eec4eb3b0030f7/Aesop_Marrakech_Intense_Eau_de_Parfum_50mL_Hybris_Large_684x668px.png" description="A row, unorthodox fragrance" />
                         </Wrapper>
                     </MyComponent>
                     <MyComponent>
                         <Wrapper>
-                        <Product name="Marrakech Intense Eau de Perfume" thumbnailSrc="https://www.aesop.com/u1nb1km7t5q7/4v65SukDfOHDWDd5BfL2G5/bb71a7ecf729a72172eec4eb3b0030f7/Aesop_Marrakech_Intense_Eau_de_Parfum_50mL_Hybris_Large_684x668px.png" description="A row, unorthodox fragrance"/>
+                            <Product name="Marrakech Intense Eau de Perfume" thumbnailSrc="https://www.aesop.com/u1nb1km7t5q7/4v65SukDfOHDWDd5BfL2G5/bb71a7ecf729a72172eec4eb3b0030f7/Aesop_Marrakech_Intense_Eau_de_Parfum_50mL_Hybris_Large_684x668px.png" description="A row, unorthodox fragrance" />
                         </Wrapper>
                     </MyComponent>
                 </Slider>

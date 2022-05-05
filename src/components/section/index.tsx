@@ -25,12 +25,6 @@ const TabletViewWrapper = styled.div`
   `};
 `;
 
-const TabletViewTopSection = styled.div`
-  ${tw`
-    flex
-  `};
-`;
-
 const TabletViewTextHeaderSectionWrapper = styled.div`
   ${tw`
     flex
@@ -131,7 +125,6 @@ const TabletImageWrapper = styled.div`
 export function Section() {
 
   const isMobile = useMediaQuery({ maxWidth: SCREENS.lg });
-  const isTablet = useMediaQuery({ minWidth: SCREENS.md });
 
   if (isMobile) {
     return (

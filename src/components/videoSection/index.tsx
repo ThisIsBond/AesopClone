@@ -155,7 +155,6 @@ const TabletImageWrapper = styled.div`
 export function VideoSection() {
 
     const isMobile = useMediaQuery({ maxWidth: SCREENS.lg });
-    const isTablet = useMediaQuery({ minWidth: SCREENS.md });
 
     if (isMobile) {
         return (

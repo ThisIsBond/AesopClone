@@ -134,31 +134,31 @@ export function NavItems() {
             <Menu right styles={menuStyle}>
                 <ListContainer>
                     <NavItem menu>
-                        <a href="#">Skin Care</a>
+                        <a href="/">Skin Care</a>
                     </NavItem>
                     <NavItem menu>
-                        <a href="#">Body &amp; Hand</a>
+                        <a href="/">Body &amp; Hand</a>
                     </NavItem>
                     <NavItem menu>
-                        <a href="#">Hair</a>
+                        <a href="/">Hair</a>
                     </NavItem>
                     <NavItem menu>
-                        <a href="#">Fragrance</a>
+                        <a href="/">Fragrance</a>
                     </NavItem>
                     <NavItem menu>
-                        <a href="#">Home</a>
+                        <a href="/">Home</a>
                     </NavItem>
                     <NavItem menu>
-                        <a href="#">Kits &amp; Travel</a>
+                        <a href="/">Kits &amp; Travel</a>
                     </NavItem>
                     <NavItem menu>
-                        <a href="#">Gifts</a>
+                        <a href="/">Gifts</a>
                     </NavItem>
                     <NavItem menu>
-                        <a href="#">Read</a>
+                        <a href="/">Read</a>
                     </NavItem>
                     <NavItem menu>
-                        <a href="#">Stores</a>
+                        <a href="/">Stores</a>
                     </NavItem>
                 </ListContainer>
             </Menu>
@@ -171,13 +171,13 @@ export function NavItems() {
                 <LeftListContainerWrapper>
                     <LeftListContainer>
                         <NavItem >
-                            <a href="#" title="Shop">Shop</a>
+                            <a href="/" title="Shop">Shop</a>
                         </NavItem>
                         <NavItem >
-                            <a href="#" title="Read">Read</a>
+                            <a href="/" title="Read">Read</a>
                         </NavItem>
                         <NavItem >
-                            <a href="#" title="Stores">Stores</a>
+                            <a href="/" title="Stores">Stores</a>
                         </NavItem>
                         <NavItem>
                             <FontAwesomeIcon icon={faMagnifyingGlass} />
@@ -188,10 +188,10 @@ export function NavItems() {
                 <RightListContainerWrapper>
                     <RightListContainer>
                         <NavItem >
-                            <a href="#" title="Login">Login</a>
+                            <a href="/" title="Login">Login</a>
                         </NavItem>
                         <NavItem >
-                            <a href="#" title="Cart">Cart</a>
+                            <a href="/" title="Cart">Cart</a>
                         </NavItem>
                     </RightListContainer>
                 </RightListContainerWrapper>
@@ -206,31 +206,31 @@ export function NavItems() {
                 <LeftListContainerWrapper>
                     <LeftListContainer>
                         <NavItem >
-                            <a href="#" title="Skin Care">Skin Care</a>
+                            <a href="/" title="Skin Care">Skin Care</a>
                         </NavItem>
                         <NavItem >
-                            <a href="#" title="Hand">Body &amp; Hand</a>
+                            <a href="/" title="Hand">Body &amp; Hand</a>
                         </NavItem>
                         <NavItem >
-                            <a href="#" title="Hair">Hair</a>
+                            <a href="/" title="Hair">Hair</a>
                         </NavItem>
                         <NavItem >
-                            <a href="#" title="Fragrance">Fragrance</a>
+                            <a href="/" title="Fragrance">Fragrance</a>
                         </NavItem>
                         <NavItem >
-                            <a href="#" title="Home">Home</a>
+                            <a href="/" title="Home">Home</a>
                         </NavItem>
                         <NavItem >
-                            <a href="#" title="Travel">Kits &amp; Travel</a>
+                            <a href="/" title="Travel">Kits &amp; Travel</a>
                         </NavItem>
                         <NavItem >
-                            <a href="#" title="Gifts">Gifts</a>
+                            <a href="/" title="Gifts">Gifts</a>
                         </NavItem>
                         <NavItem >
-                            <a href="#" title="Read">Read</a>
+                            <a href="/" title="Read">Read</a>
                         </NavItem>
                         <NavItem >
-                            <a href="#" title="Stores">Stores</a>
+                            <a href="/" title="Stores">Stores</a>
                         </NavItem>
                         <NavItem>
                             <FontAwesomeIcon icon={faMagnifyingGlass} />
@@ -240,10 +240,10 @@ export function NavItems() {
                 <RightListContainerWrapper>
                     <RightListContainer>
                         <NavItem >
-                            <a href="#" title="Login">Login</a>
+                            <a href="/" title="Login">Login</a>
                         </NavItem>
                         <NavItem >
-                            <a href="#" title="Cart">Cart</a>
+                            <a href="/" title="Cart">Cart</a>
                         </NavItem>
                     </RightListContainer>
                 </RightListContainerWrapper>

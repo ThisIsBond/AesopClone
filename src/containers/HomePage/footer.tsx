@@ -121,12 +121,6 @@ const DescriptionWrapper = styled.p`
     `};
 `;
 
-const SustainabilityMenu = styled.ul`
-    ${tw`
-
-    `};
-`;
-
 const SectionContainer = styled.div`
     
     min-width: 220px;
@@ -194,24 +188,6 @@ const Separator = styled.div`
         mb-4
         bg-white
     `}
-`;
-
-const CopyrightSection = styled.div`
-    width: inherit;
-    ${tw`
-        flex
-        flex-row
-        justify-between
-        items-center
-    `}
-`;
-
-const AesopCopyright = styled.div`
-    ${tw`
-        p-5
-        text-lg
-        text-white
-    `};
 `;
 
 const TabletViewMainContainer = styled.div`
@@ -295,40 +271,40 @@ export function Footer() {
                             <Separator />
                             <LinksList>
                                 <ListItem>
-                                    <a href="#">Contact us</a>
+                                    <a href="/">Contact us</a>
                                 </ListItem>
                             </LinksList>
 
                             <LinksList>
                                 <ListItem>
-                                    <a href="#">FAQ</a>
+                                    <a href="/">FAQ</a>
                                     <Arrow style={{ marginLeft: 5, fill: "#ffffff" }} />
                                 </ListItem>
                             </LinksList>
 
                             <LinksList>
                                 <ListItem>
-                                    <a href="#">Shipping</a>
+                                    <a href="/">Shipping</a>
                                     <Arrow style={{ marginLeft: 5, fill: "#ffffff" }} />
                                 </ListItem>
                             </LinksList>
 
                             <LinksList>
                                 <ListItem>
-                                    <a href="#">Returns</a>
+                                    <a href="/">Returns</a>
                                     <Arrow style={{ marginLeft: 5, fill: "#ffffff" }} />
                                 </ListItem>
                             </LinksList>
 
                             <LinksList>
                                 <ListItem>
-                                    <a href="#">Order history</a>
+                                    <a href="/">Order history</a>
                                 </ListItem>
                             </LinksList>
 
                             <LinksList>
                                 <ListItem>
-                                    <a href="#">Terms &amp; conditions</a>
+                                    <a href="/">Terms &amp; conditions</a>
                                 </ListItem>
                             </LinksList>
                         </SectionContainer>
@@ -340,19 +316,19 @@ export function Footer() {
                             <Separator />
                             <LinksList>
                                 <ListItem>
-                                    <a href="#">Live assistance</a>
+                                    <a href="/">Live assistance</a>
                                 </ListItem>
                             </LinksList>
 
                             <LinksList>
                                 <ListItem>
-                                    <a href="#">Corporate gifts</a>
+                                    <a href="/">Corporate gifts</a>
                                 </ListItem>
                             </LinksList>
 
                             <LinksList>
                                 <ListItem>
-                                    <a href="#">Facial appointments</a>
+                                    <a href="/">Facial appointments</a>
                                 </ListItem>
                             </LinksList>
                         </SectionContainer>
@@ -364,14 +340,14 @@ export function Footer() {
                             <Separator />
                             <LinksList>
                                 <ListItem>
-                                    <a href="#">Shipping: &nbsp; </a>
+                                    <a href="/">Shipping: &nbsp; </a>
                                     <p className="underline" style={{ color: '#ffffff' }}>Hong Kong(S.A.R)</p>
                                 </ListItem>
                             </LinksList>
 
                             <LinksList>
                                 <ListItem>
-                                    <a href="#">Language: &nbsp; </a>
+                                    <a href="/">Language: &nbsp; </a>
                                     <p className="underline" style={{ color: '#ffffff' }}>English</p>
                                 </ListItem>
                             </LinksList>
@@ -384,26 +360,26 @@ export function Footer() {
                             <Separator />
                             <LinksList>
                                 <ListItem>
-                                    <a href="#">Our story</a>
+                                    <a href="/">Our story</a>
                                 </ListItem>
                             </LinksList>
 
                             <LinksList>
                                 <ListItem>
-                                    <a href="#">Foundation</a>
+                                    <a href="/">Foundation</a>
                                     <Arrow style={{ marginLeft: 5, fill: "#ffffff" }} />
                                 </ListItem>
                             </LinksList>
 
                             <LinksList>
                                 <ListItem>
-                                    <a href="#">Careers</a>
+                                    <a href="/">Careers</a>
                                 </ListItem>
                             </LinksList>
 
                             <LinksList>
                                 <ListItem>
-                                    <a href="#">Accessibility</a>
+                                    <a href="/">Accessibility</a>
                                 </ListItem>
                             </LinksList>
                         </SectionContainer>
@@ -415,34 +391,34 @@ export function Footer() {
                             <Separator />
                             <LinksList>
                                 <ListItem>
-                                    <a href="#">Instagram</a>
+                                    <a href="/">Instagram</a>
                                     <Arrow style={{ marginLeft: 5, fill: "#ffffff" }} />
                                 </ListItem>
                             </LinksList>
 
                             <LinksList>
                                 <ListItem>
-                                    <a href="#">Tweeter</a>
+                                    <a href="/">Tweeter</a>
                                     <Arrow style={{ marginLeft: 5, fill: "#ffffff" }} />
                                 </ListItem>
                             </LinksList>
 
                             <LinksList>
                                 <ListItem>
-                                    <a href="#">LinkedIn</a>
+                                    <a href="/">LinkedIn</a>
                                     <Arrow style={{ marginLeft: 5, fill: "#ffffff" }} />
                                 </ListItem>
                             </LinksList>
 
                             <LinksList>
                                 <ListItem>
-                                    <a href="#">WeChat</a>
+                                    <a href="/">WeChat</a>
                                 </ListItem>
                             </LinksList>
 
                             <LinksList>
                                 <ListItem>
-                                    <a href="#">Waibo</a>
+                                    <a href="/">Waibo</a>
                                     <Arrow style={{ marginLeft: 5, fill: "#ffffff" }} />
                                 </ListItem>
                             </LinksList>
@@ -493,40 +469,40 @@ export function Footer() {
                             <Separator />
                             <LinksList>
                                 <ListItem>
-                                    <a href="#">Contact us</a>
+                                    <a href="/">Contact us</a>
                                 </ListItem>
                             </LinksList>
 
                             <LinksList>
                                 <ListItem>
-                                    <a href="#">FAQ</a>
+                                    <a href="/">FAQ</a>
                                     <Arrow style={{ marginLeft: 5, fill: "#ffffff" }} />
                                 </ListItem>
                             </LinksList>
 
                             <LinksList>
                                 <ListItem>
-                                    <a href="#">Shipping</a>
+                                    <a href="/">Shipping</a>
                                     <Arrow style={{ marginLeft: 5, fill: "#ffffff" }} />
                                 </ListItem>
                             </LinksList>
 
                             <LinksList>
                                 <ListItem>
-                                    <a href="#">Returns</a>
+                                    <a href="/">Returns</a>
                                     <Arrow style={{ marginLeft: 5, fill: "#ffffff" }} />
                                 </ListItem>
                             </LinksList>
 
                             <LinksList>
                                 <ListItem>
-                                    <a href="#">Order history</a>
+                                    <a href="/">Order history</a>
                                 </ListItem>
                             </LinksList>
 
                             <LinksList>
                                 <ListItem>
-                                    <a href="#">Terms &amp; conditions</a>
+                                    <a href="/">Terms &amp; conditions</a>
                                 </ListItem>
                             </LinksList>
                         </SectionContainer>
@@ -538,19 +514,19 @@ export function Footer() {
                             <Separator />
                             <LinksList>
                                 <ListItem>
-                                    <a href="#">Live assistance</a>
+                                    <a href="/">Live assistance</a>
                                 </ListItem>
                             </LinksList>
 
                             <LinksList>
                                 <ListItem>
-                                    <a href="#">Corporate gifts</a>
+                                    <a href="/">Corporate gifts</a>
                                 </ListItem>
                             </LinksList>
 
                             <LinksList>
                                 <ListItem>
-                                    <a href="#">Facial appointments</a>
+                                    <a href="/">Facial appointments</a>
                                 </ListItem>
                             </LinksList>
                         </SectionContainer>
@@ -562,14 +538,14 @@ export function Footer() {
                             <Separator />
                             <LinksList>
                                 <ListItem>
-                                    <a href="#">Shipping: &nbsp; </a>
+                                    <a href="/">Shipping: &nbsp; </a>
                                     <p className="underline" style={{ color: '#ffffff' }}>Hong Kong(S.A.R)</p>
                                 </ListItem>
                             </LinksList>
 
                             <LinksList>
                                 <ListItem>
-                                    <a href="#">Language: &nbsp; </a>
+                                    <a href="/">Language: &nbsp; </a>
                                     <p className="underline" style={{ color: '#ffffff' }}>English</p>
                                 </ListItem>
                             </LinksList>
@@ -582,26 +558,26 @@ export function Footer() {
                             <Separator />
                             <LinksList>
                                 <ListItem>
-                                    <a href="#">Our story</a>
+                                    <a href="/">Our story</a>
                                 </ListItem>
                             </LinksList>
 
                             <LinksList>
                                 <ListItem>
-                                    <a href="#">Foundation</a>
+                                    <a href="/">Foundation</a>
                                     <Arrow style={{ marginLeft: 5, fill: "#ffffff" }} />
                                 </ListItem>
                             </LinksList>
 
                             <LinksList>
                                 <ListItem>
-                                    <a href="#">Careers</a>
+                                    <a href="/">Careers</a>
                                 </ListItem>
                             </LinksList>
 
                             <LinksList>
                                 <ListItem>
-                                    <a href="#">Accessibility</a>
+                                    <a href="/">Accessibility</a>
                                 </ListItem>
                             </LinksList>
                         </SectionContainer>
@@ -613,34 +589,34 @@ export function Footer() {
                             <Separator />
                             <LinksList>
                                 <ListItem>
-                                    <a href="#">Instagram</a>
+                                    <a href="/">Instagram</a>
                                     <Arrow style={{ marginLeft: 5, fill: "#ffffff" }} />
                                 </ListItem>
                             </LinksList>
 
                             <LinksList>
                                 <ListItem>
-                                    <a href="#">Tweeter</a>
+                                    <a href="/">Tweeter</a>
                                     <Arrow style={{ marginLeft: 5, fill: "#ffffff" }} />
                                 </ListItem>
                             </LinksList>
 
                             <LinksList>
                                 <ListItem>
-                                    <a href="#">LinkedIn</a>
+                                    <a href="/">LinkedIn</a>
                                     <Arrow style={{ marginLeft: 5, fill: "#ffffff" }} />
                                 </ListItem>
                             </LinksList>
 
                             <LinksList>
                                 <ListItem>
-                                    <a href="#">WeChat</a>
+                                    <a href="/">WeChat</a>
                                 </ListItem>
                             </LinksList>
 
                             <LinksList>
                                 <ListItem>
-                                    <a href="#">Waibo</a>
+                                    <a href="/">Waibo</a>
                                     <Arrow style={{ marginLeft: 5, fill: "#ffffff" }} />
                                 </ListItem>
                             </LinksList>

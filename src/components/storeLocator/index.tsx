@@ -144,8 +144,7 @@ const TabletImageWrapper = styled.div`
 
 export function StoreLocator() {
 
-    const isMobile = useMediaQuery({ maxWidth: SCREENS.lg });
-    const isTablet = useMediaQuery({ minWidth: SCREENS.md });
+    const isMobile = useMediaQuery({ maxWidth: SCREENS.lg });   
 
     if (isMobile) {
         return (

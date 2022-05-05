@@ -27,11 +27,6 @@ const TabletViewWrapper = styled.div`
   `};
 `;
 
-const TabletViewTopSection = styled.div`
-  ${tw`
-    flex
-  `};
-`;
 
 const TabletViewTextHeaderSectionWrapper = styled.div`
   background-color: #c6c1b8;
@@ -131,11 +126,6 @@ const ImageWrapper = styled.div`
   }
 `;
 
-const NavigationWhileMobileScreen = styled.div`
-  ${tw`
-
-  `}
-`;
 
 const SiteLogoWrapper = styled.div`
     top: 5em;
